@@ -15,7 +15,7 @@ var viewContents = require('./routes/web/contents/contents.js') //컨텐츠 띄�
 var path = require('path');
 
 
-fi
+
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var methodOverride = require('method-override');
