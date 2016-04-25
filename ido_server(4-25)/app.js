@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var http = require('http');
 var express = require('express')
   , router = express.Router();
@@ -15,7 +14,7 @@ var upload = require('./routes/web/builder/upload.js') // 이미지 업로드 �
 var viewContents = require('./routes/web/contents/contents.js') //컨텐츠 띄우기.
 var path = require('path');
 
-test change;
+CEBU CEBU
 
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -225,7 +224,7 @@ app.get('/auth/facebook/callback',
 function ensureAuthenticated(req, res, next) {
 	  if (req.isAuthenticated()) { return next(); }
 	  res.redirect('/');
-=======
+
 var http = require('http');
 var express = require('express')
   , router = express.Router();
@@ -450,7 +449,7 @@ app.get('/auth/facebook/callback',
 
 
 function ensureAuthenticated(req, res, next) {
-	  if (req.isAuthenticated()) { return next(); }
+	  if (req.isAuthenticated()) { return next(); 
 	  res.redirect('/');
->>>>>>> branch 'master' of https://github.com/preejer1/ido-0425-.git
-	}
+	  }
+}
